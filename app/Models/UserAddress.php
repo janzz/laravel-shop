@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class UserAddress extends Model
 {
     //
-    protected $fillabel = [
+    protected $fillable = [
         'province',
         'city',
         'district',
